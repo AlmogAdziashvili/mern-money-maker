@@ -1,4 +1,8 @@
-# MERN Boilerplate
+# Money Maker
 
-##  Boilerplate for MongoDB, ExpressJS, React, Node Stack 
-
+### Node js
+### Express js
+### MongoDB
+### React
+### Redux
+### Matrial UI
