@@ -1,1 +1,4 @@
-# mern-money-maker
+# MERN Boilerplate
+
+##  Boilerplate for MongoDB, ExpressJS, React, Node Stack 
+

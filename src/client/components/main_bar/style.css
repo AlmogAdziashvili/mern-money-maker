@@ -1,0 +1,35 @@
+header.main-bar {
+  background: linear-gradient(to bottom left, #70b189, #2b6c45);
+  background-color: transparent;
+  z-index: 1300;
+  margin-bottom: 0;
+}
+
+svg.menu-icon {
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  width: 100% !important;
+  color: #f2f2f2;
+}
+
+.menu {
+  width: 59px;
+  background: linear-gradient(to top left, #70b189, #2b6c45);
+}
+
+div.MuiListItem-root.Mui-selected {
+  background: #f2f2f2;
+}
+
+a>div.MuiListItem-root.Mui-selected>svg.menu-icon {
+  color: #3b945e;
+}
+
+a>.MuiListItem-root.Mui-selected, .MuiListItem-root.Mui-selected:hover>svg.menu-icon {
+  color: #f2f2f2;
+}
+
+a>.MuiButtonBase-root {
+  width: 100%;
+}

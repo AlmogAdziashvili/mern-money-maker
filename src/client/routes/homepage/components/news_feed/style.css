@@ -1,0 +1,11 @@
+html {
+  overflow-x: hidden;
+}
+
+h4.news-title {
+  color: #182628;
+}
+
+.news-container {
+  margin-top: 0 !important;
+}

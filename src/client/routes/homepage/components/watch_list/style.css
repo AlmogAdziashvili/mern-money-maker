@@ -1,0 +1,47 @@
+html {
+  overflow-x: hidden;
+  background-color: #f2f2f2;
+}
+
+.watch-list-container {
+  display: flex;
+  overflow-x: auto;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+h4.watch-list-title {
+  color: #182628;
+}
+
+.watch-list-container::-webkit-scrollbar {
+  display: none;
+}
+
+.watch-list-container {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+svg.MuiCircularProgress-svg {
+  color: #3B945Edd;
+}
+
+div.MuiCircularProgress-root {
+  margin-top: 1rem;
+}
+
+button.add-symbol-button {
+  padding: 0;
+  transform: translateX(50%) translateY(-30%);
+}
+
+div.dialog-paper {
+  background: transparent;
+}
+
+.skeleton-symbol-card {
+  margin-right: 1rem;
+  min-width: 250px;
+  width: 250px;
+}

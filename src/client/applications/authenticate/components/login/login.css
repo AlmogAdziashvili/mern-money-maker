@@ -1,0 +1,21 @@
+div.paper-login {
+  padding: 20px;
+  background: linear-gradient(to bottom left, #70b189dd, #2b6c45dd);
+  background-color: transparent;
+  width: 100%;
+  max-width: 360px;
+}
+
+.form-link {
+  display: block;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.form-link:link, .form-link:visited {
+  color: #182628aa;
+}
+
+.form-link:hover, .form-link:active {
+  color: #182628;
+}

@@ -1,0 +1,28 @@
+.color-green {
+  color: #70b189;
+}
+
+.color-red {
+  color: #a75154;
+}
+
+.symbol-card {
+  min-width: 250px;
+  width: 250px;
+  margin-right: 1rem;
+  background: linear-gradient(to bottom left, #2d393bdd, #162325dd);
+}
+
+.symbol-card-text {
+  color: #f2f2f2;
+}
+
+div.MuiCardContent-root:last-child {
+  padding-bottom: 16px;
+}
+
+button.remove-symbol-button {
+  padding: 0;
+  margin-left: 20px;
+  color: #f2f2f2dd;
+}

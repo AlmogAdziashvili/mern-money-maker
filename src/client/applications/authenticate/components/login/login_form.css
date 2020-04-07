@@ -1,0 +1,10 @@
+form.form-login {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  width: 100%
+}
+
+.MuiOutlinedInput-root>fieldset {
+  border-color: #182628;
+}

@@ -1,0 +1,40 @@
+form.form-symbol {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 360px;
+}
+
+.MuiOutlinedInput-root>fieldset {
+  border-color: #182628;
+}
+
+div.paper-symbol {
+  padding: 20px;
+  background: linear-gradient(to bottom left, #70b189dd, #2b6c45dd);
+  background-color: transparent;
+  width: 100%;
+  max-width: 360px;
+}
+
+div.MuiTextField-root {
+  margin-bottom: 20px;
+}
+
+.MuiOutlinedInput-root>fieldset {
+  border-color: #182628;
+}
+
+.MuiOutlinedInput-root.Mui-focused>fieldset {
+  border-color: #182628aa !important;
+}
+
+.MuiFormLabel-root.Mui-focused {
+  color: #182628 !important;
+}
+
+div.MuiAutocomplete-root {
+  min-width: 250px;
+  width: 100%;
+}

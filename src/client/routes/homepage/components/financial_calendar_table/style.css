@@ -1,0 +1,32 @@
+div.calendar-table-container {
+  max-height: 303px;
+  margin-top: 12px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+div.calendar-table-container::-webkit-scrollbar {
+  display: none;
+}
+
+div.calendar-table-container {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  background: linear-gradient(to bottom left, #2d393bdd, #162325dd);
+}
+
+th.MuiTableCell-head {
+  color: #f2f2f2;
+}
+
+th.MuiTableCell-body, td.MuiTableCell-body {
+  color: #c2c2c2;
+}
+
+.calendar-table-head {
+  position: fixed;
+}
+
+th.MuiTableCell-stickyHeader {
+  background-color: #3d494b;
+}

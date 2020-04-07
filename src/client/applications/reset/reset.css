@@ -1,0 +1,25 @@
+body {
+  background: linear-gradient(#f2f2f2ff, #f2f2f277), url('/images/background.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+}
+
+div.center-container {
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+div.MuiTextField-root {
+  margin-bottom: 20px;
+}
+
+svg.google-icon {
+  margin-bottom: 10px;
+  color: #3B945Edd;
+}
